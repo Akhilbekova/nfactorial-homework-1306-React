@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Satisfy&display=swap');
+
+.inscription{
+    display: flex;
+    width:100%;
+    height:100vh;
+    position: absolute;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    left: 0;
+    right:0;
+    font-size:x-large;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("./img/fhoto1.jpeg");
+    width:20%;
+    height:100vh;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./img/fhoto2.jpeg");
+    background-size: cover;
+    width:20%;
+    height:100vh;
+}
+
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("./img/fhoto3.jpeg");
+    background-repeat: no-repeat;
+    background-position:  center;
+    width:20%;
+    height:100vh;
+}
+
+.text4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/fhoto4.jpeg");
+    width:20%;
+    height:100vh;
+}
+
+.text5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/fhoto5.jpeg");
+    width:20%;
+    height:100vh;
+}
+
+
+
+@media (max-width: 480px){
+    .inscription{
+
+        flex-direction: column;
+        overflow: hidden;
+        background-position:center;
+    }
+    .inscription div{
+        width: 100vh;
+    }
+
+
+}
